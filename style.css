@@ -1,0 +1,45 @@
+div.cover{
+    background:url("images/cover.jpg") no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.row > div{
+    height: 40px;
+    color: white;
+}
+div.switch{
+    font-size: 20px;
+}
+.nav-set{
+    padding-top:3px ;
+}
+.nav-btn{
+    display: flex;
+}
+.nav-btn > li {
+    list-style-type: none;
+    font-size: 15px;
+    padding-right: 25px;
+}
+.search{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    height: 20px;
+    font-size: 12px;
+    max-width: 150px;
+    border: none;
+    padding-left: 5px;
+    }
+.search-box{
+    text-align: right;
+    padding: 3px;
+
+}
+div.main-title{
+    margin-top: 17%;
+}
+.main-title-sub > h1{
+    font-weight: bolder;
+}
