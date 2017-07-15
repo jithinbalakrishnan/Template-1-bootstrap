@@ -43,3 +43,9 @@ div.main-title{
 .main-title-sub > h1{
     font-weight: bolder;
 }
+.button-1{
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 25px;
+
+}
