@@ -4,9 +4,7 @@ div.cover{
     height: 100vh;
 }
 
-
-.row > div{
-    height: 40px;
+.main-title-sub > h1{
     color: white;
 }
 div.switch{
@@ -15,6 +13,9 @@ div.switch{
 .nav-set{
     padding-top:3px ;
 }
+.switch{
+    color: white;
+}
 .nav-btn{
     display: flex;
 }
@@ -22,6 +23,7 @@ div.switch{
     list-style-type: none;
     font-size: 15px;
     padding-right: 25px;
+    color: white;
 }
 .search{
     border-radius: 10px;
@@ -48,4 +50,86 @@ div.main-title{
     padding: 10px 30px;
     margin-top: 25px;
 
+}
+.about-head{
+    color: black;
+    text-align: center;
+}
+.about-head > h3{
+    margin-bottom: 3px;
+}
+.about-head > p {
+    margin-top: 5px;
+
+}
+.line {
+    height: 2px;
+    width: 45px;
+    background-color: black;
+    margin: 0 auto;
+}
+.about-content{
+    padding: 65px;
+    text-align: center;
+
+}
+.square{
+    height: 120px;
+    width: 130px;
+    border-radius: 15px;
+    background-color:#E0F7FA;
+    margin: 0 auto;
+}
+.square > span {
+    text-align: center;
+    margin: 25px;
+    font-size: 60px;
+    color:#4CAF50;
+}
+.about-content > h3 {
+    font-weight: bold;
+}
+.work-box{
+    background-color:#4CAF50 ;
+}
+.work-head {
+    text-align: center;
+
+}
+.work-head > h3 {
+    letter-spacing: 3px;
+    margin-bottom: 1px;
+    padding-top: 20px;
+}
+.work-head > p{
+    margin-top: 9px;
+}
+.tab-row{
+
+    display: flex;
+}
+.tab-col-1 {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding:5px;
+    border-radius: 20px 0 0 20px;
+    color: white;
+    background-color:rgba(49, 121, 51, 0.99);
+}
+.tab-col-2{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    padding:5px;
+    border-right: 2px solid #4CAF50 ;
+}
+.tab-col-3{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    padding:5px;
+    border-radius: 0px 20px 20px 0px;
 }
