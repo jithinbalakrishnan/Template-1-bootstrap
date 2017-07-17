@@ -51,6 +51,19 @@ div.main-title{
     margin-top: 25px;
 
 }
+.btn-2{
+    height:45px;
+    width: 15%;
+    border-radius: 30px;
+    background-color: #2a802d;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+.btn-2 > h4{
+    color: white;
+}
+
 .about-head{
     color: black;
     text-align: center;
@@ -132,4 +145,24 @@ div.main-title{
     text-align: center;
     padding:5px;
     border-radius: 0px 20px 20px 0px;
+}
+.img-block-1{
+    margin-top: 50px;
+}
+
+.img{
+    height: 150px;
+    max-width: 170px;
+
+}
+.img-block-2{
+    margin-top: 23px;
+    margin-bottom: 45px;
+}
+.testimonial-head{
+    text-align: center;
+}
+.testimonial-head > h2{
+    letter-spacing: 2px;
+
 }
