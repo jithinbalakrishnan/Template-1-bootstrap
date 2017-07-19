@@ -159,10 +159,63 @@ div.main-title{
     margin-top: 23px;
     margin-bottom: 45px;
 }
+
 .testimonial-head{
     text-align: center;
+    margin-top: 20px;
 }
-.testimonial-head > h2{
+.testimonial-head > h3{
     letter-spacing: 2px;
+    margin-bottom: 1px;
 
+}
+.testimonial-head > p{
+    margin-top: 10px;
+    color: #ccc;
+}
+.testimonial-1 {
+    margin-top: 75px;
+    margin-bottom: 50px;
+
+}
+.testimonial-1 > h5 {
+    line-height: 20px;
+    font-weight:bolder;
+
+}
+.testimonial-content > h5 {
+
+    line-height: 25px;
+}
+.arrow {
+    font-size: 40px;
+    color: #ccc;
+
+}
+.testimonial-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url("./images/1.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+.name-position {
+    color: #ccc;
+}
+.client{
+    background-color: #ccc;
+}
+.client-head {
+    margin-top: 10px;
+
+}
+.client-head > h3{
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+}
+.client-head > p {
+    margin-top: 10px;
+    color: #777;
 }
