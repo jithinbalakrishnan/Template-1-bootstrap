@@ -51,6 +51,9 @@ div.main-title{
     margin-top: 25px;
 
 }
+.btn-view{
+    margin-bottom: 40px;
+}
 .btn-2{
     height:45px;
     width: 15%;
@@ -62,6 +65,7 @@ div.main-title{
 }
 .btn-2 > h4{
     color: white;
+
 }
 
 .about-head{
@@ -104,6 +108,7 @@ div.main-title{
 }
 .work-box{
     background-color:#4CAF50 ;
+
 }
 .work-head {
     text-align: center;
@@ -221,15 +226,17 @@ div.main-title{
     color: #777;
 }
 .client-company-png{
-    height: 90px;
-    width: 220px;
+    max-height: 80px;
+    max-width: 100%;
+
+
 }
 .client-company-logo{
-    height: 110px ;
-    width: 160px ;
+    max-height: 100px;
+    max-width: 100%;
 }
 .clients-row{
     margin: 40px;
     padding: 20px;
-    text-align: center;
+
 }
