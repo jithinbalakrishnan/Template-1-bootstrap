@@ -10,8 +10,8 @@ $(document).ready(function(){
     //    $("#art").show();
     //});
     $(".button-1").click(function(){
-        $("#p-a").fadeToggle();
-        $("#h-a").fadeToggle("slow");
-        $(".square").fadeToggle(3000);
+        $("#p-a").slideToggle();$("#p-b").slideToggle();$("#p-c").slideToggle();
+        $("#h-a").slideToggle();$("#h-b").slideToggle(); $("#h-c").slideToggle();
+        $(".square").slideToggle(3000);
     });
 });
